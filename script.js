@@ -41,9 +41,9 @@ function init() {
         let size = Math.random() * 20;
         let x = Math.random() * (innerWidth - size * 2);
         let y = Math.random() * (innerHeight - size * 2);
-        let directionX = (Math.random() * .4) - .2;
-        let directionY = (Math.random() * .4) - .2;
-        let color = 'white';
+        let directionX = (Math.random() * 1) - .6;
+        let directionY = (Math.random() * 1) - .5;
+        let color = 'black';
 
         particleArray.push(new Particle(x, y, directionX, directionY, size, color));
     }
