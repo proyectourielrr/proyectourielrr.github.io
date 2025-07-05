@@ -53,7 +53,7 @@ function init() {
     requestAnimationFrame(animate);
     ctx.clearRect(0,0, innerWidth, innerHeight);
 
-    for (let i = 0; i < particleArray.legth; i++) {
+    for (let i = 0; i < particleArray.length; i++) {
         particleArray[i].update()
     }
  }
