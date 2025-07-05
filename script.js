@@ -38,7 +38,7 @@ Particle.prototype.update = function(){
 function init() {
     particleArray = [];
     for (let i=0; i< 100; i++) {
-        let size = Math.random() * 20;
+        let size = Math.random() * 40;
         let x = Math.random() * (innerWidth - size * 2);
         let y = Math.random() * (innerHeight - size * 2);
         let directionX = (Math.random() * 1) - .6;
